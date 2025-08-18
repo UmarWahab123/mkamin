@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="240" height="240">
+  <linearGradient id="vlwLzlz3Zfeb5F7hkFCD6a" x1="3.808" x2="46.994" y1="658.192" y2="615.006" gradientTransform="matrix(1 0 0 -1 0 662)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#0077d2" />
+    <stop offset="1" stop-color="#0b59a2" />
+  </linearGradient>
+  <path fill="url(#vlwLzlz3Zfeb5F7hkFCD6a)" d="M40,6H8C6.895,6,6,6.895,6,8v32c0,1.105,0.895,2,2,2h32c1.105,0,2-0.895,2-2V8C42,6.895,41.105,6,40,6z" />
+  <circle cx="24" cy="15" r="4" opacity=".05" />
+  <circle cx="24" cy="15" r="3.5" opacity=".07" />
+  <circle cx="24" cy="15" r="3" fill="#fff" />
+  <circle cx="24" cy="24" r="4" opacity=".05" />
+  <circle cx="24" cy="24" r="3.5" opacity=".07" />
+  <circle cx="24" cy="24" r="3" fill="#fff" />
+  <circle cx="24" cy="33" r="4" opacity=".05" />
+  <circle cx="24" cy="33" r="3.5" opacity=".07" />
+  <circle cx="24" cy="33" r="3" fill="#fff" />
+</svg>
