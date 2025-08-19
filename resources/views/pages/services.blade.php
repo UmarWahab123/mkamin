@@ -247,9 +247,9 @@
 
                 // Update URL with selected category without reloading the page
                 if (categoryId === 'all') {
-                    history.pushState({}, '', '{{ $type === "home" ? "/home-services" : "/salon-services" }}');
+                    history.pushState({}, '', '{{ $type === "home" ? "/home-services" : "/products" }}');
                 } else {
-                    history.pushState({}, '', `{{ $type === "home" ? "/home-services" : "/salon-services" }}?category=${categoryId}`);
+                    history.pushState({}, '', `{{ $type === "home" ? "/home-services" : "/products" }}?category=${categoryId}`);
                 }
 
                 // Filter services
@@ -278,9 +278,9 @@
 
                 // Update URL with selected category without reloading the page
                 if (categoryId === 'all') {
-                    history.pushState({}, '', '{{ $type === "home" ? "/home-services" : "/salon-services" }}');
+                    history.pushState({}, '', '{{ $type === "home" ? "/home-services" : "/products" }}');
                 } else {
-                    history.pushState({}, '', `{{ $type === "home" ? "/home-services" : "/salon-services" }}?category=${categoryId}`);
+                    history.pushState({}, '', `{{ $type === "home" ? "/home-services" : "/products" }}?category=${categoryId}`);
                 }
 
                 // Filter services

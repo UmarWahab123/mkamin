@@ -4,8 +4,11 @@
 
 @section('content')
 
+<h1 style="text-align:center; margin-top:20vh; font-family: Arial, sans-serif; color:#333;">
+    🚧 This page is under development. We'll be back soon!
+</h1>
 
-    <!-- INNER PAGE TITLE
+    {{-- <!-- INNER PAGE TITLE
                         ============================================= -->
     <section id="contacts-page" class="pb-6 inner-page-title division">
         <div class="container">
@@ -51,7 +54,7 @@
                             <h3>{{ __('Custom Color Service') }}</h3>
 
                             <!-- Button -->
-                            <a href="{{ route('salon-services') }}" class="btn btn--tra-white hover--white">{{ __('Book an Appointment') }}</a>
+                            <a href="{{ route('products') }}" class="btn btn--tra-white hover--white">{{ __('Book an Appointment') }}</a>
 
                         </div>
                     </div>
@@ -69,6 +72,6 @@
 
 
     <!-- Cart Float Component -->
-    @include('components.cart-float')
+    @include('components.cart-float') --}}
 
 @endsection

@@ -208,7 +208,7 @@ class HomeSectionResource extends Resource
                         ->afterStateUpdated(function ($state, $set, $get) {
                             $set('preview_trigger', microtime(true));
                         }),
-                    TextInput::make('title')->label('Main Title')->required()
+                    TextInput::make('title')->label('Main Title')
                         ->live(debounce: 300)
                         ->afterStateUpdated(function ($state, $set, $get) {
                             $set('preview_trigger', microtime(true));
@@ -474,6 +474,13 @@ class HomeSectionResource extends Resource
                 })
                 ->visible(fn ($get) => $get('section_name') === 'text_content_3'),
             Textarea::make('content.description')->label('Description')->rows(4)
+                ->live()
+                ->afterStateUpdated(function ($state, $set) {
+                    $set('preview_trigger', microtime(true));
+                })
+                ->visible(fn ($get) => $get('section_name') === 'text_content_3'),
+            FileUpload::make('content.image')->label('Image')
+                ->image()->disk('public')->directory('home')
                 ->live()
                 ->afterStateUpdated(function ($state, $set) {
                     $set('preview_trigger', microtime(true));

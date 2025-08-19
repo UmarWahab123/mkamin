@@ -123,10 +123,10 @@
                     @endif
                     <div style="position: relative; z-index: 3; text-align: center; padding: 20px; color: white;">
                         <h2 style="font-size: 24px; font-weight: 700; margin: 0 0 8px; color: white;">
-                            {{ $content['title'] ?? 'About mcs.sa' }}
+                            {{ $content['title'] ?? '' }}
                         </h2>
                         <p style="font-size: 14px; margin: 0; opacity: 0.9; color: white;">
-                            {{ $content['description'] ?? 'Luxury salon where you will feel unique and special' }}
+                            {{ $content['description'] ?? '' }}
                         </p>
                     </div>
                 </section>

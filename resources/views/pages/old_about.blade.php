@@ -470,7 +470,7 @@
                             <h3>{{ __('Manicure + Gel Polish') }}</h3>
 
                             <!-- Button -->
-                            <a href="{{ route('salon-services') }}" class="btn btn--tra-white hover--white">{{ __('Book an Appointment') }}</a>
+                            <a href="{{ route('products') }}" class="btn btn--tra-white hover--white">{{ __('Book an Appointment') }}</a>
 
                         </div>
                     </div>

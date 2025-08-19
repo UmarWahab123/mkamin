@@ -4,7 +4,14 @@
 
 @section('content')
 
-    <!-- INNER PAGE HERO
+
+<h1 style="text-align:center; margin-top:20vh; font-family: Arial, sans-serif; color:#333;">
+    🚧 This page is under development. We'll be back soon!
+</h1>
+
+
+
+    {{-- <!-- INNER PAGE HERO
         ============================================= -->
     <section id="pricing-page-1" class="inner-page-hero division">
         <div class="container">
@@ -95,7 +102,7 @@
             <div class="row">
                 <div class="col">
                     <div class="more-btn mt-5">
-                        <a href="{{ $locationType == 'home' ? route('home-services') : route('salon-services') }}"
+                        <a href="{{ $locationType == 'home' ? route('home-services') : route('products') }}"
                             class="btn btn--tra-black hover--{{ isset($buttonHoverClass) ? $buttonHoverClass : 'black' }}">
                             {{ __(isset($buttonText) ? $buttonText : (isset($pricingContent) && isset($pricingContent['buttonText']) ? $pricingContent['buttonText'] : 'View All Prices')) }}
                         </a>
@@ -121,7 +128,7 @@
     ])
 
     <!-- Cart Float Component -->
-    @include('components.cart-float')
+    @include('components.cart-float') --}}
 @endsection
 
 @section('styles')

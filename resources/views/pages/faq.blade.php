@@ -4,7 +4,11 @@
 
 @section('content')
 
+<h1 style="text-align:center; margin-top:20vh; font-family: Arial, sans-serif; color:#333;">
+    🚧 This page is under development. We'll be back soon!
+</h1>
 
+{{-- 
     <!-- INNER PAGE HERO
                         ============================================= -->
     <section id="faqs-page" class="inner-page-hero division">
@@ -202,9 +206,9 @@
     <!-- FAQs-1 -->
 
 
-
+ --}}
 
 
     <!-- Cart Float Component -->
-    @include('components.cart-float')
+    {{-- @include('components.cart-float') --}}
 @endsection

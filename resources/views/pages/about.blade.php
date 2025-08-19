@@ -78,8 +78,8 @@ function getImageUrl($imagePath, $default = null) {
                 <div class="row">
                     <div class="col">
                         <div class="page-hero-txt color--white">
-                            <h2>{{ isset($section->content['title']) ? __($section->content['title']) : __('About mcs.sa') }}</h2>
-                            <p>{{ isset($section->content['description']) ? __($section->content['description']) : __('Luxury salon where you will feel unique and special') }}</p>
+                            <h2>{{ isset($section->content['title']) ? __($section->content['title']) : '' }}</h2>
+                            <p>{{ isset($section->content['description']) ? __($section->content['description']) : '' }}</p>
                         </div>
                     </div>
                 </div>
@@ -434,7 +434,7 @@ function getImageUrl($imagePath, $default = null) {
                                 <span class="section-id">{{ isset($section->content['small_title']) ? __($section->content['small_title']) : __('This Week Only') }}</span>
                                 <h2>{{ isset($section->content['title']) ? __($section->content['title']) : __('Get 30% OFF') }}</h2>
                                 <h3>{{ isset($section->content['subtitle']) ? __($section->content['subtitle']) : __('Manicure + Gel Polish') }}</h3>
-                                <a href="{{ isset($section->content['button_link']) ? $section->content['button_link'] : route('salon-services') }}" class="btn btn--tra-white hover--white">
+                                <a href="{{ isset($section->content['button_link']) ? $section->content['button_link'] : route('products') }}" class="btn btn--tra-white hover--white">
                                     {{ isset($section->content['button_text']) ? __($section->content['button_text']) : __('Book an Appointment') }}
                                 </a>
                             </div>

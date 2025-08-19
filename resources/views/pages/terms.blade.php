@@ -4,7 +4,11 @@
 
 @section('content')
 
-    <!-- INNER PAGE TITLE -->
+<h1 style="text-align:center; margin-top:20vh; font-family: Arial, sans-serif; color:#333;">
+    🚧 This page is under development. We'll be back soon!
+</h1>
+
+    {{-- <!-- INNER PAGE TITLE -->
     <section id="terms-page" class="pb-6 inner-page-title division">
         <div class="container py-5 rounded-3 shadow">
             <div class="row">
@@ -72,5 +76,5 @@
 
 
     <!-- Cart Float Component -->
-    @include('components.cart-float')
+    @include('components.cart-float') --}}
 @endsection
